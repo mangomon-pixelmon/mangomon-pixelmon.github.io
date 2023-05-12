@@ -65,7 +65,7 @@ window.addEventListener("DOMContentLoaded", event => {
 						<img src="../resources/img/${pokemon.id}.png" height="200">
 					</td>
 					<td>
-						<b>#${pokemon.dex} <big>${pokemon.name}</big> ${pokemon.type}</b>
+						<b>#${pokemon.dex} <big><b>${pokemon.name}</b></big> ${pokemon.type}</b>
 					</td>
 				</tr>
 				<tr>
