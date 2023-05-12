@@ -9,3 +9,37 @@ body {
 	color: var(--text-color);
 	background-color: var(--back-color);
 }
+
+/* Pokedex */
+table.pokemon {
+    border-style: solid;
+}
+
+div.stat {
+    display: inline-flex;
+    float: left;
+    margin-left: 10px;
+    border: 1px solid #000;
+}
+
+div.hp.stat {
+    background-color: #FF0000;
+}
+div.atk.stat {
+    background-color: #F08030;
+}
+div.def.stat {
+    background-color: #F8D030;
+}
+div.spa.stat {
+    background-color: #6890F0;
+}
+div.spd.stat {
+    background-color: #78C850;
+}
+div.spe.stat {
+    background-color: #F85888;
+}
+div.total.stat {
+    background-color: #FFFFFF;
+}
