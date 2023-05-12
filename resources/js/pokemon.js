@@ -50,8 +50,28 @@ class Pokemon {
 }
 
 const DATA = [
-	// new Pokemon("galaxy-bulbasaur", "Galaxy Bulbasaur", ["galaxy"], 1, ["Grass", "Poison"], [45, 49, 49, 65, 65, 45]),
+	// Malbluit
+	new Pokemon("malbluit-spinarak", "Malbluit Spinarak", ["malbluit"], 167, ["Ice", "Poison"], [40, 60, 40, 40, 40, 30]),
 	new Pokemon("malbluit-ariados", "Malbluit Ariados", ["malbluit"], 168, ["Ice", "Poison"], [70, 100, 70, 60, 70, 30]),
+	new Pokemon("malbluit-numel", "Malbluit Numel", ["malbluit"], 322, ["Ice", "Ground"], [60, 60, 40, 65, 45, 35]),
+	new Pokemon("malbluit-camerupt", "Malbluit Camerupt", ["malbluit"], 323, ["Ice", "Ground"], [90, 80, 70, 125, 75, 20]),
+	new Pokemon("malbluit-mega-camerupt", "Malbluit Mega Camerupt", ["malbluit", "mega"], 323, ["Fire", "Ground"], [70, 120, 100, 145, 105, 20]),
+	new Pokemon("malbluit-trapinch", "Malbluit Trapinch", ["malbluit"], 328, ["Ground", "Fairy"], [45, 100, 45, 45, 45, 10]),
+	new Pokemon("malbluit-vibrava", "Malbluit Vibrava", ["malbluit"], 329, ["Fairy", "Dragon"], [50, 100, 50, 20, 50, 70]),
+	new Pokemon("malbluit-flygon", "Malbluit Flygon", ["malbluit"], 330, ["Fairy", "Dragon"], [80, 130, 80, 50, 80, 100]),
+	new Pokemon("malbluit-gible", "Malbluit Gible", ["malbluit"], 443, ["Dragon", "Water"], [58, 70, 45, 40, 45, 42]),
+	new Pokemon("malbluit-gabite", "Malbluit Gabite", ["malbluit"], 444, ["Dragon", "Water"], [68, 90, 65, 50, 55, 82]),
+	new Pokemon("malbluit-garchomp", "Malbluit Garchomp", ["malbluit"], 445, ["Dragon", "Water"], [110, 135, 95, 85, 85, 100]),
+	new Pokemon("malbluit-klefki", "Malbluit Klefki", ["malbluit"], 707, ["Ghost", "Fairy"], [57, 60, 91, 80, 87, 95]),
+	new Pokemon("malbluit-noibat", "Malbluit Noibat", ["malbluit"], 714, ["Water", "Dragon"], [40, 20, 35, 55, 40, 55]),
+	new Pokemon("malbluit-noivern", "Malbluit Noivern", ["malbluit"], 715, ["Water", "Dragon"], [85, 60, 80, 107, 80, 123]),
+	
+	// Galaxy Malbluit
+	// new Pokemon("galaxy-malbluit-trapinch", "Galaxy Malbluit Trapinch", ["galaxy", "malbluit"], 328, ["Ground", "Fairy"], [45, 100, 45, 45, 45, 10]),
+	// new Pokemon("galaxy-malbluit-vibrava", "Galaxy Malbluit Vibrava", ["galaxy", "malbluit"], 329, ["Fairy", "Dragon"], [50, 100, 50, 20, 50, 70]),
+	// new Pokemon("galaxy-malbluit-flygon", "Galaxy Malbluit Flygon", ["galaxy", "malbluit"], 330, ["Fairy", "Dragon"], [80, 130, 80, 50, 80, 100]),
+	// new Pokemon("galaxy-malbluit-noibat", "Galaxy Malbluit Noibat", ["galaxy", "malbluit"], 714, ["Water", "Dragon"], [40, 20, 35, 55, 40, 55]),
+	// new Pokemon("galaxy-malbluit-noivern", "Galaxy Malbluit Noivern", ["galaxy", "malbluit"], 715, ["Water", "Dragon"], [85, 60, 80, 107, 80, 123]),
 ];
 
 window.addEventListener("DOMContentLoaded", event => {
