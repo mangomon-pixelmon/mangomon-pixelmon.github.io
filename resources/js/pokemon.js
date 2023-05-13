@@ -54,6 +54,26 @@ class Pokemon {
 }
 
 let DATA = [
+	// Blighted
+	new Pokemon("blighted-oddish", "Blighted Crystal Oddish", ["blighted"], 43, ["Grass", "Poison"], [35, 50, 55, 75, 65, 40]),
+	new Pokemon("blighted-gloom", "Blighted Crystal Gloom", ["blighted"], 44, ["Grass", "Poison"], [120, 65, 100, 85, 105, 110]),
+	new Pokemon("blighted-vileplume", "Blighted Crystal Vileplume", ["blighted"], 45, ["Grass", "Poison"], [175, 80, 185, 110, 190, 100]),
+	// blighted kabuto #140
+	new Pokemon("blighted-kabutops", "Blighted Crystal Kabutops", ["blighted"], 141, ["Rock", "Ghost"], [120, 175, 145, 165, 70, 180]),
+	new Pokemon("blighted-ledyba", "Blighted Crystal Ledyba", ["blighted"], 165, ["Dark", "Fighting"], [40, 120, 30, 40, 80, 105]),
+	// new Pokemon("mega-blighted-ledyba", "Blighted Crystal Mega Ledyba", ["blighted", "mega"], 165, ["Bug", "Flying"], [70, 250, 88, 140, 70, 250]),
+	new Pokemon("blighted-ledian", "Blighted Crystal Ledian", ["blighted"], 166, ["Fighting", "Dark"], [105, 135, 80, 55, 140, 125]),
+	new Pokemon("blighted-bellossom", "Blighted Crystal Bellossom", ["blighted"], 182, ["Grass", "Ghost"], [175, 180, 95, 140, 100, 150]),
+	new Pokemon("blighted-larvitar", "Blighted Crystal Larvitar", ["blighted"], 246, ["Rock", "Dark"], [50, 64, 100, 95, 100, 41]),
+	new Pokemon("blighted-pupitar", "Blighted Crystal Pupitar", ["blighted"], 247, ["Rock", "Dark"], [150, 84, 130, 65, 130, 51]),
+	new Pokemon("blighted-tyranitar", "Blighted Crystal Tyranitar", ["blighted"], 248, ["Rock", "Dark"], [200, 234, 140, 105, 100, 121]),
+	new Pokemon("blighted-aron", "Blighted Crystal Aron", ["blighted"], 304, ["Steel", "Ghost"], [50, 70, 150, 40, 140, 30]),
+	new Pokemon("blighted-lairon", "Blighted Crystal Lairon", ["blighted"], 305, ["Steel", "Ghost"], [110, 90, 140, 50, 150, 40]),
+	new Pokemon("blighted-aggron", "Blighted Crystal Aggron", ["blighted"], 306, ["Steel", "Ghost"], [170, 160, 180, 160, 160, 50]),
+	new Pokemon("blighted-gigalith", "Crystal Soul Gigalith", ["blighted", "crystal"], 526, ["Steel", "Fairy"], [125, 185, 190, 60, 80, 15]),
+	new Pokemon("blighted-clauncher", "Blighted Crystal Clauncher", ["blighted"], 692, ["Water", "Dark"], [70, 53, 62, 138, 63, 94]),
+	new Pokemon("blighted-clawitzer", "Blighted Crystal Clawitzer", ["blighted"], 693, ["Water", "Dark"], [171, 123, 138, 170, 139, 109]),
+
 	// Malbluit
 	new Pokemon("malbluit-spinarak", "Malbluit Spinarak", ["malbluit"], 167, ["Ice", "Poison"], [40, 60, 40, 40, 40, 30]),
 	new Pokemon("malbluit-ariados", "Malbluit Ariados", ["malbluit"], 168, ["Ice", "Poison"], [70, 100, 70, 60, 70, 30]),
