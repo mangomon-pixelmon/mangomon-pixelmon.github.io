@@ -74,6 +74,28 @@ let DATA = [
 	new Pokemon("blighted-clauncher", "Blighted Crystal Clauncher", ["blighted"], 692, ["Water", "Dark"], [70, 53, 62, 138, 63, 94]),
 	new Pokemon("blighted-clawitzer", "Blighted Crystal Clawitzer", ["blighted"], 693, ["Water", "Dark"], [171, 123, 138, 170, 139, 109]),
 
+	// Easter
+	new Pokemon("easter-tentacool", "Easter Tentacool", ["easter"], 72, ["Water", "Poison"], [40, 40, 35, 50, 100, 70]),
+	new Pokemon("easter-tentacruel", "Easter Tentacruel", ["easter"], 73, ["Water", "Poison"], [80, 70, 65, 80, 120, 100]),
+	new Pokemon("easter-exeggcute", "Easter Exeggcute", ["easter"], 102, ["Grass"], [60, 40, 80, 60, 45, 40]),
+	new Pokemon("easter-exeggutor", "Easter Exeggutor", ["easter"], 103, ["Grass"], [95, 95, 85, 125, 75, 55]),
+	new Pokemon("easter-togepi", "Easter Togepi", ["easter"], 175, ["Fairy"], [35, 20, 65, 40, 65, 20]),
+	new Pokemon("easter-togetic", "Easter Togetic", ["easter"], 176, ["Fairy", "Flying"], [55, 40, 85, 80, 105, 40]),
+	new Pokemon("eastere-torchic", "Electric Easter Torchic", ["easter"], 255, ["Electric"], [45, 60, 40, 70, 50, 45]),
+	new Pokemon("easterf-torchic", "Fairy Easter Torchic", ["easter"], 255, ["Fairy"], [45, 60, 40, 70, 50, 45]),
+	new Pokemon("easteri-torchic", "Ice Easter Torchic", ["easter"], 255, ["Ice"], [45, 60, 40, 70, 50, 45]),
+	new Pokemon("eastere-combusken", "Electric Easter Combusken", ["easter"], 256, ["Electric", "Fighting"], [60, 85, 60, 85, 60, 55]),
+	new Pokemon("easterf-combusken", "Fairy Easter Combusken", ["easter"], 256, ["Fairy", "Fighting"], [60, 85, 60, 85, 60, 55]),
+	new Pokemon("easteri-combusken", "Ice Easter Combusken", ["easter"], 256, ["Ice", "Fighting"], [60, 85, 60, 85, 60, 55]),
+	new Pokemon("eastere-blaziken", "Electric Easter Blaziken", ["easter"], 257, ["Electric", "Fighting"], [80, 120, 70, 110, 70, 80]),
+	new Pokemon("easterf-blaziken", "Fairy Easter Blaziken", ["easter"], 257, ["Fairy", "Fighting"], [80, 120, 70, 110, 70, 80]),
+	new Pokemon("easteri-blaziken", "Ice Easter Blaziken", ["easter"], 257, ["Ice", "Fighting"], [80, 120, 70, 110, 70, 80]),
+	new Pokemon("easter-torkoal", "Easter Torkoal", ["easter"], 324, ["Fire", "Grass"], [70, 85, 140, 85, 70, 20]),
+	// new Pokemon("easter-finneon", "Easter Finneon", ["easter"], 456, ["Water", "Grass"], [49, 49, 56, 49, 61, 66]),
+	// new Pokemon("easter-lumineon", "Easter Lumineon", ["easter"], 457, ["Water", "Grass"], [69, 69, 76, 69, 86, 91]),
+	new Pokemon("easter-togekiss", "Easter Togekiss", ["easter"], 468, ["Fairy", "Flying"], [85, 50, 95, 120, 115, 80]),
+	// new Pokemon("easter-virizion", "Easter Virizion", ["easter"], 640, ["Fairy", "Fighting"], [91, 90, 72, 90, 129, 108]),
+
 	// Malbluit
 	new Pokemon("malbluit-spinarak", "Malbluit Spinarak", ["malbluit"], 167, ["Ice", "Poison"], [40, 60, 40, 40, 40, 30]),
 	new Pokemon("malbluit-ariados", "Malbluit Ariados", ["malbluit"], 168, ["Ice", "Poison"], [70, 100, 70, 60, 70, 30]),
