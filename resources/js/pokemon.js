@@ -54,6 +54,30 @@ class Pokemon {
 }
 
 let DATA = [
+	// Ancient 
+	new Pokemon("art-omanyte", "Ancient Arts Omanyte", ["art"], 138, ["Fire", "Water"], [35, 60, 70, 110, 55, 35]),
+	new Pokemon("art-omastar", "Ancient Arts Omastar", ["art"], 139, ["Fire", "Water"], [70, 80, 95, 135, 70, 55]),
+	new Pokemon("art-kabuto", "Ancient Arts Kabuto", ["art"], 140, ["Fire", "Dark"], [30, 100, 60, 55, 45, 75]),
+	new Pokemon("art-kabutops", "Ancient Arts Kabutops", ["art"], 141, ["Fire", "Dark"], [60, 135, 105, 65, 70, 100]),
+	new Pokemon("art-aerodactyl", "Ancient Arts Aerodactyl", ["art"], 142, ["Dragon", "Flying"], [80, 125, 85, 60, 45, 130]),
+	// new Pokemon("art-mvp-aerodactyl", "Ancient Arts MVP Aerodactyl", ["art", "mvp"], 142, ["Dragon", "Flying"], [80, 125, 85, 60, 45, 130]),
+	new Pokemon("art-lileep", "Ancient Arts Lileep", ["art"], 345, ["Water", "Grass"], [66, 41, 77, 91, 87, 3]),
+	new Pokemon("art-cradily", "Ancient Arts Cradily", ["art"], 346, ["Water", "Grass"], [86, 81, 97, 111, 107, 23]),
+	new Pokemon("art-anorith", "Ancient Arts Anorith", ["art"], 347, ["Water", "Bug"], [45, 105, 35, 40, 35, 105]),
+	new Pokemon("art-armaldo", "Ancient Arts Armaldo", ["art"], 348, ["Water", "Bug"], [75, 135, 85, 70, 65, 75]),
+	new Pokemon("art-cranidos", "Ancient Arts Cranidos", ["art"], 408, ["Electric"], [67, 125, 30, 30, 10, 98]),
+	new Pokemon("art-rampardos", "Ancient Arts Rampardos", ["art"], 409, ["Electric"], [97, 165, 60, 65, 20, 98]),
+	new Pokemon("art-shieldon", "Ancient Arts Shieldon", ["art"], 410, ["Fairy", "Steel"], [50, 42, 118, 12, 108, 30]),
+	new Pokemon("art-bastiodon", "Ancient Arts Bastiodon", ["art"], 411, ["Fairy", "Steel"], [80, 52, 168, 17, 158, 30]),
+	new Pokemon("art-tirtouga", "Ancient Arts Tirtouga", ["art"], 564, ["Grass", "Poison"], [54, 98, 73, 53, 45, 42]),
+	new Pokemon("art-carracosta", "Ancient Arts Carracosta", ["art"], 565, ["Grass", "Poison"], [74, 128, 103, 83, 65, 52]),
+	new Pokemon("art-archen", "Ancient Arts Archen", ["art"], 566, ["Grass", "Flying"], [55, 132, 25, 74, 35, 90]),
+	new Pokemon("art-archeops", "Ancient Arts Archeops", ["art"], 567, ["Grass", "Flying"], [75, 160, 45, 112, 55, 130]),
+	new Pokemon("art-tyrunt", "Ancient Arts Tyrunt", ["art"], 696, ["Ice", "Dragon"], [58, 89, 77, 15, 85, 48]),
+	new Pokemon("art-tyrantrum", "Ancient Arts Tyrantrum", ["art"], 697, ["Ice", "Dragon"], [82, 121, 119, 39, 99, 71]),
+	new Pokemon("art-amaura", "Ancient Arts Amaura", ["art"], 698, ["Steel", "Ice"], [77, 29, 50, 67, 63, 86]),
+	new Pokemon("art-aurorus", "Ancient Arts Aurorus", ["art"], 699, ["Steel", "Ice"], [123, 47, 72, 99, 92, 98]),
+
 	// Blighted
 	new Pokemon("blighted-oddish", "Blighted Crystal Oddish", ["blighted"], 43, ["Grass", "Poison"], [35, 50, 55, 75, 65, 40]),
 	new Pokemon("blighted-gloom", "Blighted Crystal Gloom", ["blighted"], 44, ["Grass", "Poison"], [120, 65, 100, 85, 105, 110]),
