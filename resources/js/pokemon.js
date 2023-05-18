@@ -357,7 +357,7 @@ window.addEventListener("DOMContentLoaded", event => {
 			<p><table class="pokemon" style="width:100%"><tbody>
 				<tr>
 					<td rowspan="2" style="width:200px">
-						<img src="/resources/img/${pokemon.id}.png" height="200" onerror="this.onerror = null; this.src = '/resources/img/missingno.png';">
+						<img src="/resources/img/${pokemon.id}.png" onerror="this.onerror = null; this.src = '/resources/img/missingno.png';">
 					</td>
 					<td>
 						<b>#${pokemon.dex} <big><b>${pokemon.name}</b></big> ${pokemon.type}</b>
