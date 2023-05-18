@@ -10,6 +10,12 @@ body {
 	background-color: var(--back-color);
 }
 
+td > img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* Pokedex */
 table.pokemon {
     border-style: solid;
